@@ -1,0 +1,56 @@
+html {
+  font-family: Flashback Color Font;
+}
+
+h1 {
+  padding: 30px;
+}
+
+section {
+  background-color: #ffff0044;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 12px -5px black;
+}
+
+section > * {
+  margin-bottom: 10px;
+}
+
+.box {
+  width: 50px;
+  height: 75px;
+  background: lightpink;
+  margin: 20px;
+  margin-left: 0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px -2px black;
+  font-size: .7em;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  background: lightblue;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 8px -5px black;
+/*   height: 600px; */
+}
+
+.put-em-in-a-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
